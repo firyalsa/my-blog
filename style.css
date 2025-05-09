@@ -1,0 +1,85 @@
+/* Font dan Warna Dasar */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #eaf4f4;
+  color: #2c3e50;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Header dan Footer */
+header, footer {
+  background-color: #c0e4c7;
+  color: #2c3e50;
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  font-size: 0.9em;
+}
+
+/* Navigasi */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #3bc46b;
+}
+
+/* Main Content */
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Biodata List */
+ul {
+  padding-left: 20px;
+}
+
+.list-kesukaan li {
+  margin: 10px 0;
+}
+
+/* Responsif */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    gap: 8px;
+  }
+}
+
+.konten-hobi {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.konten-hobi img {
+  max-width: 300px;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.konten-hobi div {
+  flex: 1;
+  min-width: 250px;
+}
